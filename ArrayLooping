@@ -1,0 +1,6 @@
+import javax.swing.JOptionPane;
+public class ArrayLooping {
+    public static void main(String[] args) throws Exception {
+        String[] boolean = {"True", "True", "False", "True"}
+    }
+}
