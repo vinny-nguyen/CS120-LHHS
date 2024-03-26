@@ -12,9 +12,11 @@ public class ArrayLooping {
                 String statusInputString = JOptionPane.showInputDialog("Has The Problem Been Resolved? (Y/N): ");
                 if (statusInputString.equalsIgnoreCase("Y")) {
                     status[i] = true;
+                    JOptionPane.showMessageDialog(null, "The problem has been resolved.");
                     scan.close();
                 } else {
                     status[3] = false;
+                    JOptionPane.showMessageDialog(null, "The problem has not been resolved.");
                 }
             }            
         }
